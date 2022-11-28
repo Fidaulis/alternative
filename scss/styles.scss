@@ -1,0 +1,48 @@
+@import 'variable';
+
+.bg-container{
+  margin-left: 140px;
+  margin-right: 140px;
+}
+.section-header{
+display: grid;
+grid-template-columns: 60% 40%;
+.bg-container-column{
+  display: flex;
+  flex-direction: column;
+  .bg-title{
+    font-family: $font-familly;
+    font-style: normal;
+    font-weight: 700px;
+    font-size: 48px;
+    line-height: 118.8%;
+  }
+  .photoshop{
+    color: $texte_color1;
+  }
+  .bg-texte{
+    width: 150vh;
+    font-family: $font-familly;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    color: $texte_color1;
+  }
+  .decouvrir{
+    color: white;
+    font-family: $font-familly;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    width: 200px;
+    border: none;
+    margin: 4px 2px;
+    padding: 12px 42px;
+    background: $primary_color;
+    border-radius: 5px;
+  }
+}
+}

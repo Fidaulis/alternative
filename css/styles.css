@@ -1,0 +1,60 @@
+.bg-container {
+  margin-left: 140px;
+  margin-right: 140px;
+}
+
+.section-header {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 60% 40%;
+      grid-template-columns: 60% 40%;
+}
+
+.section-header .bg-container-column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.section-header .bg-container-column .bg-title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700px;
+  font-size: 48px;
+  line-height: 118.8%;
+}
+
+.section-header .bg-container-column .photoshop {
+  color: #868686;
+}
+
+.section-header .bg-container-column .bg-texte {
+  width: 150vh;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  color: #868686;
+}
+
+.section-header .bg-container-column .decouvrir {
+  color: white;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  width: 200px;
+  border: none;
+  margin: 4px 2px;
+  padding: 12px 42px;
+  background: #C63882;
+  border-radius: 5px;
+}
+/*# sourceMappingURL=styles.css.map */
