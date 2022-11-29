@@ -22,7 +22,7 @@
   background-color: #F9F9F9;
 }
 
-.bg-container, header, #categorie {
+.bg-container, header, #categorie, #alternatives_demandes, #alternatives, #footer-section {
   margin-left: 140px;
   margin-right: 140px;
 }
@@ -148,6 +148,7 @@
 
 .nos-categories {
   background-color: white;
+  padding-bottom: 105px;
 }
 
 .categories-section {
@@ -301,5 +302,205 @@
 .categories-card-row .card .carre-bleu .fa-pen {
   color: white;
   margin: 15px;
+}
+
+.alternatives-demandes {
+  background-color: #F9F9F9;
+  padding-bottom: 105px;
+}
+
+.alternatives-section {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 60% 40%;
+      grid-template-columns: 60% 40%;
+  padding-top: 86px;
+}
+
+.alternatives-section .alternatives-column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.alternatives-section .alternatives-column .alternatives-title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 100.8%;
+  color: #000000;
+}
+
+.alternatives-section .alternatives-column .alternatives-texte {
+  padding-top: 41px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 130%;
+  color: #868686;
+}
+
+.alternatives-section .alternatives-btn {
+  -ms-grid-column-align: end;
+      justify-self: end;
+}
+
+.alternatives-section .alternatives-btn .voir-plus {
+  color: #C63882;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  width: 200px;
+  border: none;
+  margin: 4px 2px;
+  padding: 12px 42px;
+  background: #FFE8F4;
+  border-radius: 5px;
+}
+
+.nouvelles-alternatives {
+  padding-bottom: 100px;
+}
+
+.alternatives-card-row {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 33% 33% 1fr;
+      grid-template-columns: 33% 33% 1fr;
+  grid-gap: 25px;
+  padding-top: 50px;
+}
+
+.alternatives-card-row .card {
+  padding: 10px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 18% 1fr;
+      grid-template-columns: 18% 1fr;
+}
+
+.alternatives-card-row .card .icon-vert {
+  width: 40px;
+  height: 40px;
+  background-color: #1DBF73;
+  border-radius: 5px;
+}
+
+.alternatives-card-row .card .icon-vert .fa-pen {
+  color: white;
+  margin: 12px;
+}
+
+.alternatives-card-row .card .title_alternatives {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+}
+
+.alternatives-card-row .card .first-column-subtitle-1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 140%;
+  color: #868686;
+}
+
+#footer {
+  background-color: #F9F9F9;
+}
+
+#footer #footer-section {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 45% 1fr 25%;
+      grid-template-columns: 45% 1fr 25%;
+  grid-gap: 10px;
+}
+
+#footer #footer-section .alternatives_footer .alternatives-btn {
+  -ms-grid-column-align: end;
+      justify-self: end;
+}
+
+#footer #footer-section .alternatives_footer .alternatives-btn .voir-plus {
+  color: #C63882;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  width: 200px;
+  border: none;
+  margin: 4px 2px;
+  padding: 12px 42px;
+  background: #FFE8F4;
+  border-radius: 5px;
+}
+
+#footer #footer-section .alternatives_footer .description_footer {
+  padding-top: 18px;
+  padding-bottom: 35px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 130%;
+  color: #868686;
+}
+
+#footer #footer-section .alternatives_footer .site-name {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 33px;
+  line-height: 50px;
+  color: #000000;
+}
+
+#footer #footer-section .footer_menu .title_menu_footer {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  color: #000000;
+}
+
+#footer #footer-section .footer_menu ul li {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #868686;
+}
+
+#copyright {
+  background-color: black;
+}
+
+#copyright .copyright {
+  font-family: "Poppins";
+  font-style: normal;
+  text-align: center;
+  font-weight: 700;
+  font-size: 14px;
+  color: #FFFFFF;
 }
 /*# sourceMappingURL=styles.css.map */

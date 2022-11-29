@@ -8,7 +8,7 @@
 .banner{
   background-color: $bg;
 }
-.bg-container, header, #categorie{
+.bg-container, header, #categorie, #alternatives_demandes, #alternatives, #footer-section{
   margin-left: 140px;
   margin-right: 140px;
 }
@@ -110,6 +110,7 @@ grid-template-columns: 60% 40%;
 //Categories
 .nos-categories{
   background-color: white;
+  padding-bottom: 105px;
 }
 .categories-section{
   display: grid;
@@ -229,5 +230,179 @@ grid-template-columns: 60% 40%;
        margin: 15px;
       }
     }
+  }
+}
+
+// Alternatives
+.alternatives-demandes{
+  background-color: $bg;
+  padding-bottom: 105px;
+}
+.alternatives-section{
+  display: grid;
+  grid-template-columns: 60% 40%;
+  padding-top: 86px;
+  .alternatives-column{
+    display: flex;
+    flex-direction: column;
+    .alternatives-title{
+      font-family: $font-familly;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 100.8%;
+      color: $color-text1;
+    }
+    .alternatives-texte{
+      padding-top: 41px;
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 130%;
+      color: $texte_color1;
+    }
+  }
+  .alternatives-btn{
+    justify-self: end;
+    .voir-plus{
+      color: $primary_color;
+      font-family: $font-familly;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 29px;
+      text-align: center;
+      width: 200px;
+      border: none;
+      margin: 4px 2px;
+      padding: 12px 42px;
+      background: $secondary-color;
+      border-radius: 5px;
+    }
+  }
+}
+// alternatives card row
+.nouvelles-alternatives{
+padding-bottom: 100px;
+}
+.alternatives-card-row{
+  display: grid;
+  grid-template-columns: 33% 33% 1fr;
+  grid-gap: 25px;
+  padding-top: 50px;
+  .card{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 18% 1fr;
+    .icon-vert{
+      width: 40px;
+      height: 40px;
+      background-color: #1DBF73;
+      border-radius: 5px;
+      .fa-pen{
+        color: white;
+        margin: 12px;
+      }
+    }
+    .title_alternatives{
+      font-family: $font-familly;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 22px;
+      color: #000000;
+    }
+    .first-column-subtitle-1{
+      font-family: $font-familly;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 13px;
+      line-height: 140%;
+      color: #868686;
+    }
+  }
+
+}
+
+// Footer
+#footer{
+  background-color: $bg;
+  #footer-section{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: grid;
+  grid-template-columns: 45% 1fr 25%;
+  grid-gap: 10px;
+  .alternatives_footer{
+    .alternatives-btn{
+      justify-self: end;
+      .voir-plus{
+        color: $primary_color;
+        font-family: $font-familly;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 29px;
+        text-align: center;
+        width: 200px;
+        border: none;
+        margin: 4px 2px;
+        padding: 12px 42px;
+        background: $secondary-color;
+        border-radius: 5px;
+      }
+    }
+    .description_footer{
+      padding-top: 18px;
+      padding-bottom: 35px;
+      font-family: $poppins;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 130%;
+      color: #868686;
+
+    }
+    .site-name{
+      font-family: $poppins;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 33px;
+      line-height: 50px;
+      color: #000000;
+    }
+    
+  }
+  .footer_menu{
+    .title_menu_footer{
+      font-family: $poppins;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 21px;
+      color: #000000;
+    }
+    ul li{
+      font-family: $font-familly;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 17px;
+      color: #868686;
+    }
+  }
+}
+}
+
+#copyright{
+  background-color: black;
+  .copyright{
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        font-family: $poppins;
+    font-style: normal;
+    text-align: center;
+    font-weight: 700;
+    font-size: 14px;
+    color: #FFFFFF;
   }
 }
