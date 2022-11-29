@@ -1,14 +1,18 @@
 @import 'variable';
 
-
+//style placeholder dans le formulaire de recheche
 ::placeholder{
   font-family: $font-familly;
   font-weight: bold;
 }
-.bg-container, header{
+.banner{
+  background-color: $bg;
+}
+.bg-container, header, #categorie{
   margin-left: 140px;
   margin-right: 140px;
 }
+//style pour navbar
 .navbar{
   display: grid;
   grid-template-columns: 45% 55%;
@@ -101,4 +105,129 @@ grid-template-columns: 60% 40%;
     border-radius: 5px;
   }
 }
+}
+
+//Categories
+.nos-categories{
+  background-color: white;
+}
+.categories-section{
+  display: grid;
+  grid-template-columns: 60% 40%;
+  padding-top: 86px;
+  .categories-column{
+    display: flex;
+    flex-direction: column;
+    .categories-title{
+      font-family: $font-familly;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 100.8%;
+      color: $color-text1;
+    }
+    .categories-texte{
+      padding-top: 41px;
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 130%;
+      color: $texte_color1;
+    }
+  }
+  .categories-btn{
+    justify-self: end;
+    .voir-plus{
+      color: $primary_color;
+      font-family: $font-familly;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 29px;
+      text-align: center;
+      width: 200px;
+      border: none;
+      margin: 4px 2px;
+      padding: 12px 42px;
+      background: $secondary-color;
+      border-radius: 5px;
+    }
+  }
+}
+
+//section card categories
+.card{
+  border: 1px solid #C8C8C8;
+  border-radius: 5px;
+}
+.categories-card-row{
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-gap: 10px;
+  padding-top: 61px;
+  .title-categ{
+    font-family: $font-familly;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    margin-top: 31px;
+  }
+  .carre-description{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    color: #868686;
+  }
+  .card{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    .fa-arrow-right{
+      float: right;
+      font-size: 30px;
+    }
+    .carre-vert{
+      width: 50px;
+      height: 50px;
+      background-color: #1DBF73;
+      border-radius: 5px;
+      .fa-pen{
+       color: white;
+       margin: 15px;
+      }
+    }
+    .carre-jaune{
+      width: 50px;
+      height: 50px;
+      background-color: #FFE082;
+      border-radius: 5px;
+      .fa-pen{
+       color: white;
+       margin: 15px;
+      }
+    }
+    .carre-rose{
+      width: 50px;
+      height: 50px;
+      background-color: #C63882;
+      border-radius: 5px;
+      .fa-pen{
+       color: white;
+       margin: 15px;
+      }
+    }
+    .carre-bleu{
+      width: 50px;
+      height: 50px;
+      background-color: #8FF1FF;
+      border-radius: 5px;
+      .fa-pen{
+       color: white;
+       margin: 15px;
+      }
+    }
+  }
 }
